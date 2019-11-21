@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<a href='/click'>Click</a>
+
+<p>@ViewBag.Nadia</p>
+
+<form action="tempuser" method="post">
+    <label for=""> Quote
+        <input type="text" name="quote">
+    </label>
+    <label for=""> By who?
+        <input type="text" name="who">
+    </label>
+    <button>Submit</button>
+</form>
+
+<a href="/formwithmodel">Go to other form with Models</a>
